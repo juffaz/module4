@@ -19,3 +19,15 @@ print('Задача 6. Игра в кубики')
 # Сумма: 7
 # Владелец платит
 # Игра окончена
+
+kubik_player = int(input("Кубик Кости: "))
+kubik_owner = int(input("Кубик владельца: "))
+print("Сумма: ", )
+win_cash = kubik_player + kubik_owner 
+
+if kubik_player >= kubik_owner:
+    print("Костя платит 1000$")
+elif kubik_player < kubik_owner:
+    print("Владелец платит", win_cash * 1000, "долларов") 
+
+print("Игра окончена") 
