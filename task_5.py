@@ -12,4 +12,7 @@ print('Задача 5. Модуль числа')
 # Подсказка: достаточно в некоторых случаях переприсвоить переменную со знаком минус.
 
 for_grafik = int(input("Введите число: "))
-print("Ответ: ", -for_grafik)
+if for_grafik > 0:
+    print("Ответ: ", for_grafik)
+else:
+    print("Ответ: ", -for_grafik)

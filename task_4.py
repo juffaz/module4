@@ -16,9 +16,10 @@ product_one = int(input("Сообщите стоимость товар перв
 product_two = int(input("Сообщите стоимость товар второго:"))
 product_three = int(input("Сообщите стоимость товар третьего:"))
 product_summary = int(product_one + product_two + product_three)
-print("Сумма чека равна: ", product_summary)
 if product_summary >= 10000:
     discount = product_summary * 10 / 100 
+    print("Сумма чека равна: ", product_summary - discount)
     print("Ваша скидка: ", discount)
 else:
+    print("Сумма чека равна: ", product_summary)
     print("У вас нету скидки")
